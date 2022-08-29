@@ -24,13 +24,13 @@ class EmployeeViewModel(
         viewModelScope.launch {
             when(val response = getAllEmployeesUseCase.execute()) {
                 is UseCaseResponse.Success -> {
-
                     if(response.data!!.isEmpty()) {
                         emptyEmployeeList.postValue(true)
                     } else {
                         employeeList.postValue(response.data!!)
                     }
                 }
+
                 is UseCaseResponse.Error -> {
                     error.postValue(response.errorMsg!!)
                 }

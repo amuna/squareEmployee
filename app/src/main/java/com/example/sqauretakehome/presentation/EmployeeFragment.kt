@@ -1,4 +1,4 @@
-package com.example.sqauretakehome
+package com.example.sqauretakehome.presentation
 
 import android.os.Bundle
 import android.util.Log
@@ -10,10 +10,9 @@ import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.sqauretakehome.R
 import com.example.sqauretakehome.domain.util.EmployeeListState
 import com.example.sqauretakehome.domain.util.EmployeeListState.*
-import com.example.sqauretakehome.presentation.EmployeeAdapter
-import com.example.sqauretakehome.presentation.EmployeeViewModel
 import com.example.sqauretakehome.di.Injector
 import org.kodein.di.instance
 

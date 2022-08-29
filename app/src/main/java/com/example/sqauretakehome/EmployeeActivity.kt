@@ -2,6 +2,7 @@ package com.example.sqauretakehome
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sqauretakehome.presentation.EmployeeFragment
 
 class EmployeeActivity : AppCompatActivity() {
 
