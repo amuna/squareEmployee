@@ -1,7 +1,6 @@
 ## Build tools & versions used
 compileSdk 32
 
-
 buildToolsVersion "32.0.0"
 
 
@@ -35,6 +34,6 @@ UI Design
 I did read a lot of articles and examples of how to use coroutine and how to test with them.
 
 ## Is there any other information you’d like us to know?
-I focused on simplicity for this app. I used kodein instead of dagger for dependency injection as it was simpler to use
+I focused on simplicity for this app. I used kodein instead of dagger for dependency injection as it was simpler to use.
 I was not very familiar with coroutine before this project but I figured out parts of it to make everything work.
 I'd say I did a good job and look forward to your insight!
